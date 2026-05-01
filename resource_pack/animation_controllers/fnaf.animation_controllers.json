@@ -1,0 +1,97 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.fnaf.daytime": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "idle": "query.is_moving == 0.0"
+            },
+            {
+              "walking": "query.is_moving > 0.0"
+            }
+          ]
+        },
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            {
+              "walking": "query.is_moving > 0.0"
+            },
+            {
+              "singing": "query.property('fnaf:showtime_type') == 'singing'"
+            },
+            {
+              "dancing": "query.property('fnaf:showtime_type') == 'dancing'"
+            },
+            {
+              "guitar": "query.property('fnaf:showtime_type') == 'guitar'"
+            }
+          ]
+        },
+        "walking": {
+          "animations": ["walk"],
+          "transitions": [
+            {
+              "idle": "query.is_moving == 0.0"
+            }
+          ]
+        },
+        "singing": {
+          "animations": ["singing"]
+        },
+        "dancing": {
+          "animations": ["dancing"]
+        },
+        "guitar": {
+          "animations": ["guitar"]
+        }
+      }
+    },
+    "controller.animation.fnaf.nighttime": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "hunting": "query.is_moving > 0.0 || query.target_distance < 20"
+            },
+            {
+              "idle": "query.is_moving == 0.0"
+            }
+          ]
+        },
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            {
+              "hunting": "query.is_moving > 0.0 || query.target_distance < 20"
+            }
+          ]
+        },
+        "hunting": {
+          "animations": ["walk"],
+          "transitions": [
+            {
+              "attack": "query.target_distance < 3"
+            },
+            {
+              "idle": "query.is_moving == 0.0 && query.target_distance > 20"
+            }
+          ]
+        },
+        "attack": {
+          "animations": ["attack"],
+          "transitions": [
+            {
+              "hunting": "query.target_distance > 5"
+            }
+          ]
+        },
+        "jumpscare": {
+          "animations": ["jumpscare"]
+        }
+      }
+    }
+  }
+}

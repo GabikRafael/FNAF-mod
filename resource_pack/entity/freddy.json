@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "fnaf:freddy",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/freddy"
+      },
+      "geometry": {
+        "default": "geometry.freddy"
+      },
+      "animations": {
+        "walk": "animation.fnaf.walk",
+        "idle": "animation.fnaf.idle",
+        "attack": "animation.fnaf.attack",
+        "jumpscare": "animation.fnaf.jumpscare",
+        "singing": "animation.fnaf.singing",
+        "dancing": "animation.fnaf.dancing",
+        "guitar": "animation.fnaf.guitar"
+      },
+      "animation_controllers": [
+        {
+          "state_machine": "controller.animation.fnaf.daytime"
+        },
+        {
+          "state_machine": "controller.animation.fnaf.nighttime"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

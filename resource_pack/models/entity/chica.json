@@ -1,0 +1,271 @@
+{
+  "format_version": "1.12.0",
+  "credit": "Created with Blockbench",
+  "model_format": "java_block",
+  "box_uv": false,
+  "elements": [
+    {
+      "name": "body",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [4, 8, 4],
+      "to": [12, 18, 12],
+      "autouv": 0,
+      "color": 3,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 8, 10],
+          "texture": "#chica"
+        },
+        "east": {
+          "uv": [0, 0, 8, 10],
+          "texture": "#chica"
+        },
+        "south": {
+          "uv": [0, 0, 8, 10],
+          "texture": "#chica"
+        },
+        "west": {
+          "uv": [0, 0, 8, 10],
+          "texture": "#chica"
+        },
+        "up": {
+          "uv": [0, 0, 8, 8],
+          "texture": "#chica"
+        },
+        "down": {
+          "uv": [0, 0, 8, 8],
+          "texture": "#chica"
+        }
+      }
+    },
+    {
+      "name": "head",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [3, 17, 3],
+      "to": [13, 27, 13],
+      "autouv": 0,
+      "color": 4,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#chica"
+        },
+        "east": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#chica"
+        },
+        "south": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#chica"
+        },
+        "west": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#chica"
+        },
+        "up": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#chica"
+        },
+        "down": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#chica"
+        }
+      }
+    },
+    {
+      "name": "left_arm",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [0, 10, 5],
+      "to": [4, 17, 11],
+      "autouv": 0,
+      "color": 5,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 7],
+          "texture": "#chica"
+        },
+        "east": {
+          "uv": [0, 0, 6, 7],
+          "texture": "#chica"
+        },
+        "south": {
+          "uv": [0, 0, 4, 7],
+          "texture": "#chica"
+        },
+        "west": {
+          "uv": [0, 0, 6, 7],
+          "texture": "#chica"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        }
+      }
+    },
+    {
+      "name": "right_arm",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [12, 10, 5],
+      "to": [16, 17, 11],
+      "autouv": 0,
+      "color": 1,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 7],
+          "texture": "#chica"
+        },
+        "east": {
+          "uv": [0, 0, 6, 7],
+          "texture": "#chica"
+        },
+        "south": {
+          "uv": [0, 0, 4, 7],
+          "texture": "#chica"
+        },
+        "west": {
+          "uv": [0, 0, 6, 7],
+          "texture": "#chica"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        }
+      }
+    },
+    {
+      "name": "left_leg",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [4, 0, 5],
+      "to": [8, 8, 11],
+      "autouv": 0,
+      "color": 2,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#chica"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#chica"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#chica"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#chica"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        }
+      }
+    },
+    {
+      "name": "right_leg",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [8, 0, 5],
+      "to": [12, 8, 11],
+      "autouv": 0,
+      "color": 6,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#chica"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#chica"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#chica"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#chica"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#chica"
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "chica",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "uuid": "body-uuid",
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "children": [0, 1, 2, 3, 4, 5]
+    }
+  ],
+  "textures": [
+    {
+      "path": "/textures/entity/chica",
+      "name": "chica",
+      "folder": "block",
+      "namespace": "",
+      "id": "0",
+      "particle": true,
+      "uv_height": 32,
+      "uv_width": 32,
+      "uv_x": 0,
+      "uv_y": 0
+    }
+  ]
+}

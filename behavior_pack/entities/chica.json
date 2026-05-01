@@ -1,0 +1,121 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "fnaf:chica",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 45
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.5
+      },
+      "minecraft:collision_box": {
+        "width": 0.55,
+        "height": 1.9
+      },
+      "minecraft:physics": {},
+      "minecraft:type_family": {
+        "family": ["fnaf", "monster", "chica"]
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushpable_by_piston": true
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.42
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement.basic": {},
+      "minecraft:nameable": {},
+      "minecraft:damage_sensor": [
+        {
+          "triggers": "on_damage",
+          "on_damage": {
+            "event": "fnaf:take_damage"
+          }
+        }
+      ]
+    },
+    "component_groups": {
+      "fnaf:daytime": {
+        "minecraft:behavior.stay_while_sitting": {
+          "priority": 0
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 1,
+          "speed_multiplier": 0.0
+        },
+        "minecraft:animation_controller": {
+          "controllers": ["controller.animation.fnaf.daytime"]
+        },
+        "minecraft:is_stackable": {}
+      },
+      "fnaf:nighttime": {
+        "minecraft:behavior.hurt_by_target": {
+          "priority": 0
+        },
+        "minecraft:behavior.pursue_target": {
+          "priority": 1,
+          "target_types": ["player", "villager"],
+          "within_radius": 35.0,
+          "speed_multiplier": 0.5
+        },
+        "minecraft:behavior.random_stroll": {
+          "priority": 2,
+          "speed_multiplier": 0.25
+        },
+        "minecraft:behavior.melee_attack": {
+          "priority": 2,
+          "speed_multiplier": 1.0,
+          "track_target": true,
+          "attack_once": false
+        },
+        "minecraft:animation_controller": {
+          "controllers": ["controller.animation.fnaf.nighttime"]
+        },
+        "minecraft:behavior.nearest_prioritized_attackable_target": {
+          "priority": 1,
+          "target_search_radius": 35,
+          "attack_interval": 0,
+          "within_default_distance": 1,
+          "must_see": true,
+          "target_types": ["player", "villager"],
+          "persist_time": 0
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["fnaf:daytime"]
+        }
+      },
+      "fnaf:switch_to_nighttime": {
+        "remove": {
+          "component_groups": ["fnaf:daytime"]
+        },
+        "add": {
+          "component_groups": ["fnaf:nighttime"]
+        }
+      },
+      "fnaf:switch_to_daytime": {
+        "remove": {
+          "component_groups": ["fnaf:nighttime"]
+        },
+        "add": {
+          "component_groups": ["fnaf:daytime"]
+        }
+      },
+      "fnaf:take_damage": {
+        "trigger": {
+          "event": "fnaf:play_damaged_sound"
+        }
+      }
+    }
+  }
+}

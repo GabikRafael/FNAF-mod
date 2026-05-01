@@ -1,0 +1,271 @@
+{
+  "format_version": "1.12.0",
+  "credit": "Created with Blockbench",
+  "model_format": "java_block",
+  "box_uv": false,
+  "elements": [
+    {
+      "name": "body",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [4, 8, 4],
+      "to": [12, 21, 12],
+      "autouv": 0,
+      "color": 13,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 8, 13],
+          "texture": "#foxy"
+        },
+        "east": {
+          "uv": [0, 0, 8, 13],
+          "texture": "#foxy"
+        },
+        "south": {
+          "uv": [0, 0, 8, 13],
+          "texture": "#foxy"
+        },
+        "west": {
+          "uv": [0, 0, 8, 13],
+          "texture": "#foxy"
+        },
+        "up": {
+          "uv": [0, 0, 8, 8],
+          "texture": "#foxy"
+        },
+        "down": {
+          "uv": [0, 0, 8, 8],
+          "texture": "#foxy"
+        }
+      }
+    },
+    {
+      "name": "head",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [2, 20, 2],
+      "to": [14, 31, 14],
+      "autouv": 0,
+      "color": 14,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 12, 11],
+          "texture": "#foxy"
+        },
+        "east": {
+          "uv": [0, 0, 12, 11],
+          "texture": "#foxy"
+        },
+        "south": {
+          "uv": [0, 0, 12, 11],
+          "texture": "#foxy"
+        },
+        "west": {
+          "uv": [0, 0, 12, 11],
+          "texture": "#foxy"
+        },
+        "up": {
+          "uv": [0, 0, 12, 12],
+          "texture": "#foxy"
+        },
+        "down": {
+          "uv": [0, 0, 12, 12],
+          "texture": "#foxy"
+        }
+      }
+    },
+    {
+      "name": "left_arm",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [-0.5, 10, 5],
+      "to": [4, 19, 11],
+      "autouv": 0,
+      "color": 15,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4.5, 9],
+          "texture": "#foxy"
+        },
+        "east": {
+          "uv": [0, 0, 6, 9],
+          "texture": "#foxy"
+        },
+        "south": {
+          "uv": [0, 0, 4.5, 9],
+          "texture": "#foxy"
+        },
+        "west": {
+          "uv": [0, 0, 6, 9],
+          "texture": "#foxy"
+        },
+        "up": {
+          "uv": [0, 0, 4.5, 6],
+          "texture": "#foxy"
+        },
+        "down": {
+          "uv": [0, 0, 4.5, 6],
+          "texture": "#foxy"
+        }
+      }
+    },
+    {
+      "name": "right_arm",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [12, 10, 5],
+      "to": [16.5, 19, 11],
+      "autouv": 0,
+      "color": 0,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4.5, 9],
+          "texture": "#foxy"
+        },
+        "east": {
+          "uv": [0, 0, 6, 9],
+          "texture": "#foxy"
+        },
+        "south": {
+          "uv": [0, 0, 4.5, 9],
+          "texture": "#foxy"
+        },
+        "west": {
+          "uv": [0, 0, 6, 9],
+          "texture": "#foxy"
+        },
+        "up": {
+          "uv": [0, 0, 4.5, 6],
+          "texture": "#foxy"
+        },
+        "down": {
+          "uv": [0, 0, 4.5, 6],
+          "texture": "#foxy"
+        }
+      }
+    },
+    {
+      "name": "left_leg",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [4, 0, 5],
+      "to": [8, 8, 11],
+      "autouv": 0,
+      "color": 1,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#foxy"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#foxy"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#foxy"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#foxy"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#foxy"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#foxy"
+        }
+      }
+    },
+    {
+      "name": "right_leg",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [8, 0, 5],
+      "to": [12, 8, 11],
+      "autouv": 0,
+      "color": 2,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#foxy"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#foxy"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#foxy"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#foxy"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#foxy"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#foxy"
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "foxy",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "uuid": "body-uuid",
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "children": [0, 1, 2, 3, 4, 5]
+    }
+  ],
+  "textures": [
+    {
+      "path": "/textures/entity/foxy",
+      "name": "foxy",
+      "folder": "block",
+      "namespace": "",
+      "id": "0",
+      "particle": true,
+      "uv_height": 32,
+      "uv_width": 32,
+      "uv_x": 0,
+      "uv_y": 0
+    }
+  ]
+}

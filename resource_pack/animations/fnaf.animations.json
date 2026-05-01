@@ -1,0 +1,91 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.fnaf.idle": {
+      "anim_time_update": "0.0",
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [0, 0, 0]
+        }
+      }
+    },
+    "animation.fnaf.walk": {
+      "anim_time_update": "query.modified_move_speed / 10.0",
+      "loop": true,
+      "bones": {
+        "left_leg": {
+          "rotation": ["math.sin(q.anim_time * 180) * 25", 0, 0],
+          "position": [0, "math.sin(q.anim_time * 180) * 0.5", 0]
+        },
+        "right_leg": {
+          "rotation": ["math.sin(q.anim_time * 180 + 180) * 25", 0, 0],
+          "position": [0, "math.sin(q.anim_time * 180 + 180) * 0.5", 0]
+        }
+      }
+    },
+    "animation.fnaf.attack": {
+      "anim_time_update": "0.0",
+      "loop": false,
+      "bones": {
+        "body": {
+          "position": ["0 + query.anim_time * 2", 0, 0]
+        },
+        "head": {
+          "rotation": ["-45 * query.anim_time", 0, 0]
+        }
+      }
+    },
+    "animation.fnaf.jumpscare": {
+      "anim_time_update": "0.0",
+      "loop": false,
+      "bones": {
+        "body": {
+          "scale": ["1 + query.anim_time * 0.5", "1 + query.anim_time * 0.5", "1 + query.anim_time * 0.5"]
+        },
+        "head": {
+          "rotation": ["query.anim_time * 180", "query.anim_time * 360", "query.anim_time * 180"]
+        }
+      }
+    },
+    "animation.fnaf.singing": {
+      "anim_time_update": "0.0",
+      "loop": true,
+      "bones": {
+        "mouth": {
+          "rotation": ["math.sin(q.anim_time * 360) * 15", 0, 0]
+        },
+        "body": {
+          "rotation": [0, 0, "math.sin(q.anim_time * 360 * 0.5) * 10"]
+        }
+      }
+    },
+    "animation.fnaf.dancing": {
+      "anim_time_update": "0.0",
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [0, "math.sin(q.anim_time * 360) * 0.3", 0]
+        },
+        "left_arm": {
+          "rotation": ["math.sin(q.anim_time * 360) * 45", 0, 0]
+        },
+        "right_arm": {
+          "rotation": ["math.sin(q.anim_time * 360 + 180) * 45", 0, 0]
+        }
+      }
+    },
+    "animation.fnaf.guitar": {
+      "anim_time_update": "0.0",
+      "loop": true,
+      "bones": {
+        "left_arm": {
+          "rotation": ["0", "0", "math.sin(q.anim_time * 360 * 1.5) * 30"]
+        },
+        "right_arm": {
+          "rotation": ["0", "0", "math.sin(q.anim_time * 360 * 1.5 + 180) * 30"]
+        }
+      }
+    }
+  }
+}

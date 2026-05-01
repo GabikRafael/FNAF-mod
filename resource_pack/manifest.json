@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "FNAF Mod Resources - Textures and Models",
+    "name": "§4FNAF Animatronics Resources§r",
+    "uuid": "22345678-2234-2234-2234-223456789022",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "description": "FNAF Models and Textures",
+      "type": "resources",
+      "uuid": "97654321-5321-5321-5321-220987654321",
+      "version": [1, 0, 0]
+    }
+  ]
+}

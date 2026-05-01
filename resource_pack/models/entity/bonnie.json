@@ -1,0 +1,271 @@
+{
+  "format_version": "1.12.0",
+  "credit": "Created with Blockbench",
+  "model_format": "java_block",
+  "box_uv": false,
+  "elements": [
+    {
+      "name": "body",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [4, 8, 4],
+      "to": [12, 20, 12],
+      "autouv": 0,
+      "color": 8,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 8, 12],
+          "texture": "#bonnie"
+        },
+        "east": {
+          "uv": [0, 0, 8, 12],
+          "texture": "#bonnie"
+        },
+        "south": {
+          "uv": [0, 0, 8, 12],
+          "texture": "#bonnie"
+        },
+        "west": {
+          "uv": [0, 0, 8, 12],
+          "texture": "#bonnie"
+        },
+        "up": {
+          "uv": [0, 0, 8, 8],
+          "texture": "#bonnie"
+        },
+        "down": {
+          "uv": [0, 0, 8, 8],
+          "texture": "#bonnie"
+        }
+      }
+    },
+    {
+      "name": "head",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [3, 19, 3],
+      "to": [13, 29, 13],
+      "autouv": 0,
+      "color": 9,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#bonnie"
+        },
+        "east": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#bonnie"
+        },
+        "south": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#bonnie"
+        },
+        "west": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#bonnie"
+        },
+        "up": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#bonnie"
+        },
+        "down": {
+          "uv": [0, 0, 10, 10],
+          "texture": "#bonnie"
+        }
+      }
+    },
+    {
+      "name": "left_arm",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [0, 10, 5],
+      "to": [4, 18, 11],
+      "autouv": 0,
+      "color": 10,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        }
+      }
+    },
+    {
+      "name": "right_arm",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [12, 10, 5],
+      "to": [16, 18, 11],
+      "autouv": 0,
+      "color": 11,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        }
+      }
+    },
+    {
+      "name": "left_leg",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [4, 0, 5],
+      "to": [8, 8, 11],
+      "autouv": 0,
+      "color": 12,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        }
+      }
+    },
+    {
+      "name": "right_leg",
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [8, 0, 5],
+      "to": [12, 8, 11],
+      "autouv": 0,
+      "color": 7,
+      "inflate": 0,
+      "origin": [8, 8, 8],
+      "faces": {
+        "north": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "east": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "south": {
+          "uv": [0, 0, 4, 8],
+          "texture": "#bonnie"
+        },
+        "west": {
+          "uv": [0, 0, 6, 8],
+          "texture": "#bonnie"
+        },
+        "up": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        },
+        "down": {
+          "uv": [0, 0, 4, 6],
+          "texture": "#bonnie"
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "bonnie",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "uuid": "body-uuid",
+      "export": true,
+      "mirror_uv": false,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "children": [0, 1, 2, 3, 4, 5]
+    }
+  ],
+  "textures": [
+    {
+      "path": "/textures/entity/bonnie",
+      "name": "bonnie",
+      "folder": "block",
+      "namespace": "",
+      "id": "0",
+      "particle": true,
+      "uv_height": 32,
+      "uv_width": 32,
+      "uv_x": 0,
+      "uv_y": 0
+    }
+  ]
+}
